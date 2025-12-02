@@ -1,0 +1,90 @@
+2025-12-02 10:55:23 INFO User login successful user_id=441
+2025-12-02 10:55:24 WARN Missing header in request path=/v1/api
+2025-12-02 10:55:25 ERROR DB connection failed code=504
+2025-12-02 10:55:26 INFO Request received method=GET path=/v1/status
+2025-12-02 10:55:27 INFO Cache hit key=user_profile_441
+2025-12-02 10:55:28 WARN Slow query detected duration=812ms
+2025-12-02 10:55:29 INFO User logout successful user_id=441
+2025-12-02 10:55:30 ERROR Payment service timeout code=408 txn_id=8821
+2025-12-02 10:55:31 INFO Background job started job_id=sync_001
+2025-12-02 10:55:32 INFO Background job completed job_id=sync_001 duration=1340ms
+2025-12-02 10:55:33 WARN Deprecated API called path=/v1/legacy/users
+2025-12-02 10:55:34 ERROR Redis connection dropped retrying=1
+2025-12-02 10:55:35 INFO Redis reconnected attempt=1
+2025-12-02 10:55:36 INFO Metrics pushed to monitoring count=128
+2025-12-02 10:55:37 WARN High memory usage usage=87%
+2025-12-02 10:55:38 INFO User login successful user_id=128
+2025-12-02 10:55:39 INFO Request received method=POST path=/v1/orders
+2025-12-02 10:55:40 ERROR Order creation failed reason=invalid_payload
+2025-12-02 10:55:41 INFO Request received method=GET path=/v1/orders/102
+2025-12-02 10:55:42 WARN Missing auth token path=/v1/orders
+2025-12-02 10:55:43 INFO User session refreshed user_id=128
+2025-12-02 10:55:44 ERROR File upload failed reason=checksum_mismatch file_id=9002
+2025-12-02 10:55:45 WARN Slow API response time=1220ms path=/v1/search
+2025-12-02 10:55:46 INFO Search completed results=12 query="laptop"
+2025-12-02 10:55:47 ERROR DB query failed code=533 query=SELECT * FROM users
+2025-12-02 10:55:48 INFO Background sync skipped reason=rate_limited
+2025-12-02 10:55:49 INFO Cache miss key=product_551
+2025-12-02 10:55:50 WARN Rate limit nearing limit=92%
+2025-12-02 10:55:51 INFO Service health check ok service=auth
+2025-12-02 10:55:52 INFO Service health check ok service=catalog
+2025-12-02 10:55:53 INFO Service health check ok service=payment
+2025-12-02 10:55:54 ERROR External API failure provider=shipping code=503
+2025-12-02 10:55:55 WARN Possible bot activity ip=172.16.21.11
+2025-12-02 10:55:56 INFO User login successful user_id=551
+2025-12-02 10:55:57 WARN Invalid parameter key=sort value=NULL
+2025-12-02 10:55:58 INFO Product added to cart user_id=551 product_id=229
+2025-12-02 10:55:59 INFO Cart checkout initiated user_id=551
+2025-12-02 10:56:00 ERROR Checkout failed reason=payment_declined
+2025-12-02 10:56:01 INFO Email sent to user_id=551 template=payment_failed
+2025-12-02 10:56:02 WARN Background worker delay queue_length=52
+2025-12-02 10:56:03 INFO Worker started worker_id=W1
+2025-12-02 10:56:04 INFO Worker finished worker_id=W1 processed=32
+2025-12-02 10:56:05 ERROR DB deadlock detected table=orders
+2025-12-02 10:56:06 INFO Deadlock resolved retry=true
+2025-12-02 10:56:07 WARN Low disk space available=2.1GB
+2025-12-02 10:56:08 INFO Disk cleanup started
+2025-12-02 10:56:09 INFO Disk cleanup completed freed=1.3GB
+2025-12-02 10:56:10 ERROR JWT validation failed token=expired
+2025-12-02 10:56:11 INFO User login attempt failed reason=invalid_credentials
+2025-12-02 10:56:12 INFO User login successful user_id=700
+2025-12-02 10:56:13 WARN Duplicate request detected request_id=UI221
+2025-12-02 10:56:14 INFO Product viewed user_id=700 product_id=22
+2025-12-02 10:56:15 INFO Request received method=GET path=/v1/recommend
+2025-12-02 10:56:16 ERROR Recommendation service failure code=502
+2025-12-02 10:56:17 WARN Using fallback recommendations
+2025-12-02 10:56:18 INFO Recommendations served items=8
+2025-12-02 10:56:19 ERROR DB connection timeout timeout=2000ms
+2025-12-02 10:56:20 INFO DB connection restored
+2025-12-02 10:56:21 WARN Unexpected null value field=email user_id=700
+2025-12-02 10:56:22 INFO Email update request user_id=700
+2025-12-02 10:56:23 INFO Email update successful user_id=700
+2025-12-02 10:56:24 ERROR Webhook delivery failed url=/events/order
+2025-12-02 10:56:25 WARN Retrying webhook delivery attempt=2
+2025-12-02 10:56:26 INFO Webhook delivered successfully
+2025-12-02 10:56:27 INFO Scheduled job executed job=batch_clean
+2025-12-02 10:56:28 WARN Batch clean partial failure cleaned=72 failed=4
+2025-12-02 10:56:29 ERROR Batch clean aborted reason=db_locked
+2025-12-02 10:56:30 INFO System load stable load=1.12
+2025-12-02 10:56:31 INFO Request received method=DELETE path=/v1/cart/551
+2025-12-02 10:56:32 INFO Cart deleted user_id=551
+2025-12-02 10:56:33 ERROR Cart removal error user_id=551 reason=missing_cart
+2025-12-02 10:56:34 INFO API key rotated key_id=AK22
+2025-12-02 10:56:35 WARN Old API key still in use key_id=AK21
+2025-12-02 10:56:36 INFO Monitoring sync started
+2025-12-02 10:56:37 INFO Monitoring sync completed
+2025-12-02 10:56:38 ERROR Cache server unreachable code=504
+2025-12-02 10:56:39 INFO Cache server restored
+2025-12-02 10:56:40 WARN Unauthorized access ip=192.168.10.22 path=/admin
+2025-12-02 10:56:41 INFO Security alert logged alert_id=SEC118
+2025-12-02 10:56:42 INFO User login successful user_id=900
+2025-12-02 10:56:43 WARN High API latency api=/v1/cart latency=680ms
+2025-12-02 10:56:44 INFO Request processed status=200 duration=92ms
+2025-12-02 10:56:45 ERROR Payment gateway unreachable attempts=3
+2025-12-02 10:56:46 INFO Gateway restored
+2025-12-02 10:56:47 WARN Slow response issued path=/v1/products
+2025-12-02 10:56:48 INFO Product list served total=140
+2025-12-02 10:56:49 INFO System idle
+2025-12-02 10:56:50 INFO System idle
+2025-12-02 10:56:51 INFO System idle
+2025-12-02 10:56:52 INFO Health check completed status=OK
